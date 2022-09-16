@@ -55,8 +55,15 @@
  /* for extra large device  */
 
  @media screen and (min-width: 993px) and (max-width: 1200px) {
-    .top_nav{
-        display: ;
+    .first_card {
+        top: 81%;
+        width: 407px;
+        right: 1%;
+    }
+    .second_card {
+        top: 81%;
+        width: 407px;
+        left: 1%;
     }
     
  }

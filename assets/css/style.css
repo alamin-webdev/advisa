@@ -146,7 +146,7 @@ body{
 
 .carousel-control-next:focus, .carousel-control-next:hover, .carousel-control-prev:focus, .carousel-control-prev:hover
 {
-    color: var(--button-primary-color);
+    color: var(--body-bg-color);
 }
 /*----------------------------------------------header carousel css end-----------------------------------------*/
 
