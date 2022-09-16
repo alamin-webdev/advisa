@@ -1,0 +1,70 @@
+/* for small device  */
+@media screen and (min-width:0px) and (max-width: 586px){
+    .second_content_title::before{
+        width: 22px;
+        margin-left: -27px;
+    }
+    .second_content_title::after{
+        width: 22px;
+        margin-left: 5px;
+    }
+    .contact_area_title::after{
+        width: 22px;
+    }
+    .row.mt-100{
+        padding: 60px 0;
+        flex-direction: column-reverse;
+    }
+    .carousel-caption p{
+        width: unset;
+    }
+    .first_card {
+        top: 91%;
+        width: 80%;
+        right: 9%;
+    }
+    .second_card {
+        top: 91%;
+        width: 80%;
+        left: 11%;
+    }
+    #small_footer .container div{
+        display: unset !important;
+    }
+ }
+ /* for medium device  */
+ @media screen and (min-width:587px) and (max-width: 768px) {
+    .top_nav{
+        display: block !important;
+    }
+    .first_card {
+        top: 42%;
+        width: 351px;
+        right: 1%;
+    }
+    .second_card {
+        top: 42%;
+        width: 351px;
+        left: 1%;
+    }
+}
+/* for large device  */
+ @media screen and (min-width: 769px) and (max-width: 992px) {
+    
+ }
+ /* for extra large device  */
+
+ @media screen and (min-width: 993px) and (max-width: 1200px) {
+    .top_nav{
+        display: ;
+    }
+    
+ }
+/* for extra extra large device  */
+
+ @media screen and (min-width: 1201px){
+    .first_card {
+        right: 19%;
+    }
+    
+ }
