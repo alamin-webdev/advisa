@@ -69,7 +69,7 @@
  }
 /* for extra extra large device  */
 
- @media screen and (min-width: 1201px){
+ @media screen and (min-width: 1401px){
     .first_card {
         right: 19%;
     }
