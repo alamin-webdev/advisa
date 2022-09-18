@@ -1,77 +1,743 @@
 /* for small device  */
-@media screen and (min-width:0px) and (max-width: 586px){
-    .second_content_title::before{
+@media screen and (min-width:0px) and (max-width:767px) {
+    .second_content_title::before {
         width: 22px;
         margin-left: -27px;
     }
-    .second_content_title::after{
+
+    .second_content_title::after {
         width: 22px;
         margin-left: 5px;
     }
-    .contact_area_title::after{
+
+    .contact_area_title::after {
         width: 22px;
     }
-    .row.mt-100{
+
+    .row.mt-110 {
+        margin: unset;
         padding: 60px 0;
         flex-direction: column-reverse;
     }
-    .carousel-caption p{
-        width: unset;
+
+    .carousel-caption h2 {
+        position: relative;
+        width: 372px;
+        font-size: 24px;
+        left: -31%;
+        bottom: 80%;
     }
+    .carousel-control-next {
+        right: 4px;
+    }
+
+    .carousel-caption p {
+        width: 230px;
+        position: relative;
+        bottom: 78%;
+
+    }
+
+    .carousel-item {
+        height: 297px;
+    }
+
+    #section_one .container {
+        padding-top: 23px;
+    }
+
+    .main_content_title {
+        width: 50%;
+        margin-left: 61px;
+        font-size: 14px !important;
+    }
+
+    .main_content_title::before {
+        content: '';
+        width: 50px;
+        height: 2px;
+        position: absolute;
+        background-color: var(--button-primary-color);
+        top: 9px;
+        left: -45px;
+    }
+
+    .content_head {
+        /* width: 338px; */
+        font-size: 20px !important;
+        line-height: 30px;
+    }
+
+    .content_text {
+        padding-top: 18px;
+        width: 271px;
+        font-size: 12px !important;
+        line-height: 20px;
+    }
+
+
     .first_card {
         top: 91%;
-        width: 80%;
-        right: 9%;
+        width: 257px;
+        height: 50px;
+        right: 6px;
     }
+
     .second_card {
         top: 91%;
-        width: 80%;
+        width: 257px;
+        height: 50px;
         left: 11%;
     }
-    #small_footer .container div{
-        display: unset !important;
-    }
- }
- /* for medium device  */
- @media screen and (min-width:587px) and (max-width: 768px) {
-    .top_nav{
-        display: block !important;
-    }
-    .first_card {
-        top: 42%;
-        width: 351px;
-        right: 1%;
-    }
-    .second_card {
-        top: 42%;
-        width: 351px;
-        left: 1%;
-    }
-}
-/* for large device  */
- @media screen and (min-width: 769px) and (max-width: 992px) {
-    
- }
- /* for extra large device  */
 
- @media screen and (min-width: 993px) and (max-width: 1200px) {
-    .first_card {
-        top: 81%;
-        width: 407px;
-        right: 1%;
+    .card_text {
+        position: relative;
+        height: 38px;
+        font-weight: 600;
+        font-size: 12px !important;
+        line-height: 14px;
+        bottom: 6px;
     }
-    .second_card {
-        top: 81%;
-        width: 407px;
-        left: 1%;
-    }
-    
- }
-/* for extra extra large device  */
 
- @media screen and (min-width: 1201px){
-    .first_card {
+    #section_two {
+        margin-top: 120px;
+    }
+
+    .second_content_title {
+        left: -18px;
+        width: 262px;
+        font-weight: 600;
+        font-size: 14px !important;
+        margin-left: 80px;
+    }
+
+    .second_content_title::before {
+        width: 25px;
+        margin-left: -30px;
+    }
+
+    .second_content_title::after {
+        width: 25px;
+        margin-left: 3px;
+    }
+
+    .second_content_big_title {
+        width: 282px;
+        font-weight: 600;
+        font-size: 25px !important;
+        line-height: 60px;
+        position: relative;
         right: 19%;
     }
+    .second_sec_card_text{
+        position: relative;
+        width: 300px;
+        height: 100px;
+        left: -46px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .contact_area_title{
+        width: 278px;
+        height: 60px;
+        font-weight: 600;
+        font-size: 14px !important;
+        line-height: 60px;
+        /* right: 89px; */
+    }
+    .contact_area_title::after {
+        width: 80px;
+        top: 50px;
+        right: 100px;
+    }
+    .contact_head{
+        position: relative;
+        right: 24px;
+    }
+    .contact_area_h_text{
+        /* position: relative; */
+        width: 300px;
+        right: 100px;
+        font-size: 14px !important;
+        line-height: 20px;
+    }
+    .contact_area_number{
+        padding-top: 7px;
+        width: 177px;
+        height: 60px;
+         position: relative;
+        top: 82px;
+        
+        right: -50px;
+    }
+    #contact_area{
+        padding: unset;
+    }
+
+    #contact_area input{
+        height: 35px;
+    }
+    #contact_area textarea{
+        height: 125px;
+    }
+    .input_field{
+        margin-top: 90px !important;
+    }
+    .input_field div{
+        margin-top: 11px !important;
+        margin-bottom: unset !important;
+    }
+    .send_btn{
+        font-weight: 600;
+        font-size: 12px;
+        margin-top: 35px;
+        height: 31px;
+        margin-bottom: 50px;
+    }
+    .big_footer_title h2{
+        font-size: 16px !important;
+    }
+    .big_footer_h_text {
+        font-size: 14px !important;
+        padding-top: 10px;
+        width: unset;
+        gap: 10px;
+        height: unset;
+        color: rgba(156, 155, 155, 1);
+        line-height: 20px;
+    }
+    .my_second_btn{
+        margin-top: 14px;
+    }
+    .footer_menu_section .logo_with_text{
+        text-align: center;
+    }
+    .footer_menu_section img{
+        width: 94px;
+        height: 41px;
+    }
+    .footer_menu_section p{
+        margin-top: 16px;
+        font-size: 14px;
+    }
+    .footer_menu_section .footer_link_menu{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .footer_link_menu .address_link{
+        text-align: start;
+    }
     
- }
+
+
+    #small_footer .d-flex {
+        font-size: 12px;
+        display: unset !important;
+    }
+    #small_footer .d-flex img{
+        width: 90px;
+    }
+}
+
+
+
+/*------------------------------------------------------------ for medium device--------------------------------  */
+@media screen and (min-width:768px) and (max-width:1023px) {
+    /* .second_content_title::before {
+        width: 22px;
+        margin-left: -27px;
+    }
+
+    .second_content_title::after {
+        width: 22px;
+        margin-left: 5px;
+    } */
+
+    /* .contact_area_title::after {
+        width: 22px;
+    } */
+
+    .row.mt-110 {
+        /* margin: unset; */
+        /* padding: 60px 0; */
+        /* flex-direction: column-reverse; */
+    }
+
+    .carousel-caption h2 {
+        position: relative;
+    /* width: 444px; */
+    font-size: 40px;
+    bottom: 80%;
+    }
+    .carousel-control-next {
+        right: 4px;
+    }
+
+    .carousel-caption p {
+        width: 400px;
+        position: relative;
+        bottom: 78%;
+
+    }
+
+    .carousel-item {
+        height: 297px;
+    }
+
+    #section_one .container {
+        padding-top: 23px;
+    }
+
+    .main_content_title {
+        width: 50%;
+        margin-left: 61px;
+        font-size: 14px !important;
+    }
+
+    .main_content_title::before {
+        content: '';
+        width: 50px;
+        height: 2px;
+        position: absolute;
+        background-color: var(--button-primary-color);
+        top: 9px;
+        left: -45px;
+    }
+
+    .content_head {
+        /* width: 338px; */
+        font-size: 20px !important;
+        line-height: 30px;
+    }
+
+    .content_text {
+        padding-top: 18px;
+        width: unset;
+        font-size: 12px !important;
+        line-height: 20px;
+    }
+
+
+    .first_card {
+        /* top: 91%; */
+        width: 314px;
+        height: 63px;
+        right: 2%;
+    }
+
+    .second_card {
+        width: 314px;
+        height: 63px;
+        
+        left: 0%;
+    }
+
+    .card_text {
+        text-align: center;
+        /* position: relative; */
+        /* height: 38px; */
+        font-weight: 600;
+        font-size: 14px !important;
+        line-height: 18px;
+        /* left: 27px; */
+        /* bottom: 6px;*/
+    }
+
+    #section_two {
+        /* margin-top: 120px; */
+    }
+
+    .second_content_title {
+        
+        font-weight: 600;
+        
+    }
+
+    .second_content_title::before {
+        width: 56px;
+        margin-left: -61px;
+    }
+    
+
+    .second_content_title::after {
+        width: 56px;
+        /* margin-left: 3px; */
+    }
+
+    .second_content_big_title {
+        font-weight: 600;
+    }
+    .second_sec_card_text{
+            /* text-align: center; */
+    /* position: relative; */
+    width: 220px;
+    height: 100px;
+    /* left: -46px; */
+    font-size: 12px;
+    line-height: 20px;
+    }
+    .contact_area_title{
+        /* width: 278px;
+        height: 60px;
+        font-weight: 600;
+        font-size: 14px !important; */
+        line-height: 60px;
+        /* right: 89px; */
+    }
+    .contact_area_title::after {
+        width: 56px;
+        top: 29px;
+    }
+    /* .contact_head{
+        position: relative;
+        right: 24px;
+    } */
+    .contact_area_h_text{
+        /* position: relative; */
+        width: 400px;
+        right: 100px;
+        font-size: 14px !important;
+        line-height: 20px;
+    }
+    .contact_area_number{
+        padding-top: 7px;
+        /* width: 177px; */
+        /* height: 60px; */
+         position: relative;
+        top: 62px;
+        
+        /* right: -50px; */
+    }
+    #contact_area{
+        padding: unset;
+    }
+
+    #contact_area input{
+        height: 35px;
+    }
+    #contact_area textarea{
+        height: 125px;
+    }
+    .input_field{
+        margin-top: 90px !important;
+    }
+    .input_field div{
+        margin-top: 11px !important;
+        margin-bottom: unset !important;
+    }
+    .send_btn{
+        font-weight: 600;
+        font-size: 12px;
+        margin-top: 10px;
+        height: 35px;
+        margin-bottom: 50px;
+    }
+    .big_footer_title h2{
+        font-size: 16px !important;
+    }
+    .big_footer_h_text {
+        font-size: 14px !important;
+        padding-top: 10px;
+        width: 400px;
+        margin: 0 auto;
+        gap: 10px;
+        height: unset;
+        color: rgba(156, 155, 155, 1);
+        line-height: 20px;
+    }
+    .my_second_btn{
+        margin-top: 14px;
+        padding: 5px 0 !important;
+        
+        width: 168px !important;
+        height: 34px !important;
+        font-size: 14px !important;
+    }
+    .footer_menu_section .logo_with_text{
+        text-align: center;
+    }
+    .footer_menu_section img{
+        width: 94px;
+        height: 41px;
+    }
+    .footer_menu_section p {
+        /* margin-top: 16px;
+        font-size: 14px; */
+        width: 400px;
+        margin: 10px auto;
+    }
+    .footer_menu_section .footer_link_menu{
+        margin-top: 20px;
+        /* display: flex;
+        justify-content: space-between; */
+        
+    }
+     .address_link{
+        margin-top: 20px;
+
+        /* display: flex; */
+        /* text-align: start; */
+    }
+    
+
+
+    #small_footer .d-flex {
+        font-size: 12px;
+        display: unset !important;
+    }
+
+    #small_footer .d-flex img{
+        width: 90px;
+    }
+    
+}
+
+@media screen and (min-width:1024px) {
+    /* .second_content_title::before {
+        width: 22px;
+        margin-left: -27px;
+    }
+
+    .second_content_title::after {
+        width: 22px;
+        margin-left: 5px;
+    } */
+
+    /* .contact_area_title::after {
+        width: 22px;
+    } */
+
+    .row.mt-110 {
+        /* margin: unset; */
+        /* padding: 60px 0; */
+        /* flex-direction: column-reverse; */
+    }
+
+    .carousel-caption h2 {
+        /* position: relative; */
+    /* width: 444px; */
+    /* font-size: 40px; */
+    /* bottom: 80%; */
+    }
+    .carousel-control-next {
+        right: 4px;
+    }
+
+    .carousel-caption p {
+        /* width: 400px;
+        position: relative;
+        bottom: 78%; */
+
+    }
+
+    .carousel-item {
+        /* height: 297px; */
+    }
+
+    #section_one .container {
+        padding-top: 23px;
+    }
+
+    .main_content_title {
+        width: 50%;
+        margin-left: 61px;
+        /* font-size: 14px !important; */
+    }
+
+    .main_content_title::before {
+        /* content: '';
+        width: 50px;
+        height: 2px;
+        position: absolute;
+        background-color: var(--button-primary-color);
+        top: 9px;
+        left: -45px; */
+    }
+
+    .content_head {
+        /* width: 338px; */
+        /* font-size: 20px !important; */
+        /* line-height: 30px; */
+    }
+
+    .content_text {
+        /* padding-top: 18px; */
+        width: unset;
+        /* font-size: 12px !important; */
+        /* line-height: 20px; */
+    }
+
+
+    .first_card {
+        /* top: 91%; */
+        width: 314px;
+        height: 63px;
+        right: 0;
+    }
+
+    .second_card {
+        width: 314px;
+        height: 63px;
+        
+        left: 0%;
+    }
+
+    .card_text {
+        text-align: center;
+        /* position: relative; */
+        /* height: 38px; */
+        font-weight: 600;
+        font-size: 14px !important;
+        line-height: 18px;
+        /* left: 27px; */
+        /* bottom: 6px;*/
+    }
+
+    #section_two {
+        /* margin-top: 120px; */
+    }
+
+    .second_content_title {
+        
+        font-weight: 600;
+        
+    }
+
+    .second_content_title::before {
+        width: 56px;
+        margin-left: -61px;
+    }
+    
+
+    .second_content_title::after {
+        width: 56px;
+        /* margin-left: 3px; */
+    }
+
+    .second_content_big_title {
+        font-weight: 600;
+    }
+    .second_sec_card_text{
+            /* text-align: center; */
+    /* position: relative; */
+    /* width: 220px; */
+    /* height: 100px; */
+    /* left: -46px; */
+    /* font-size: 12px;
+    line-height: 20px;
+    } */
+    .contact_area_title{
+        /* width: 278px;
+        height: 60px;
+        font-weight: 600;
+        font-size: 14px !important; */
+        line-height: 60px;
+        /* right: 89px; */
+    }
+    .contact_area_title::after {
+        /* width: 56px;
+        top: 29px; */
+    }
+    /* .contact_head{
+        position: relative;
+        right: 24px;
+    } */
+    .contact_area_h_text{
+        /* position: relative; */
+        width: 400px;
+        right: 100px;
+        font-size: 14px !important;
+        line-height: 20px;
+    }
+    .contact_area_number{
+        padding-top: 7px;
+        /* width: 177px; */
+        /* height: 60px; */
+         position: relative;
+        top: 62px;
+        
+        /* right: -50px; */
+    }
+    #contact_area{
+        padding: unset;
+    }
+
+    #contact_area input{
+        height: 35px;
+    }
+    #contact_area textarea{
+        height: 125px;
+    }
+    .input_field{
+        margin-top: 90px !important;
+    }
+    .input_field div{
+        margin-top: 11px !important;
+        margin-bottom: unset !important;
+    }
+    .send_btn{
+        font-weight: 600;
+        font-size: 12px;
+        margin-top: 10px;
+        height: 35px;
+        margin-bottom: 50px;
+    }
+    .big_footer_title h2{
+        font-size: 16px !important;
+    }
+    .big_footer_h_text {
+        font-size: 14px !important;
+        padding-top: 10px;
+        width: 400px;
+        margin: 0 auto;
+        gap: 10px;
+        height: unset;
+        color: rgba(156, 155, 155, 1);
+        line-height: 20px;
+    }
+    .my_second_btn{
+        margin-top: 14px;
+        padding: 5px 0 !important;
+        
+        width: 168px !important;
+        height: 34px !important;
+        font-size: 14px !important;
+    }
+    .footer_menu_section .logo_with_text{
+        text-align: center;
+    }
+    .footer_menu_section img{
+        width: 94px;
+        height: 41px;
+    }
+    .footer_menu_section p {
+        /* margin-top: 16px;
+        font-size: 14px; */
+        /* width: 400px; */
+        margin: 10px auto;
+    }
+    .footer_menu_section .footer_link_menu{
+        margin-top: 20px;
+        /* display: flex;
+        justify-content: space-between; */
+        
+    }
+     .address_link{
+        margin-top: 20px;
+
+        /* display: flex; */
+        /* text-align: start; */
+    }
+    
+
+
+    #small_footer .d-flex {
+        font-size: 12px;
+        display: unset !important;
+    }
+
+    #small_footer .d-flex img{
+        width: 90px;
+    }
+}

@@ -1,5 +1,7 @@
-
-    $(document).ready(function(){
+// aos script 
+AOS.init();
+   
+   $(document).ready(function(){
       $('.myslider').slick({
         dots:true,
         autoplay:true,
@@ -8,13 +10,13 @@
       });
     });
     $('.navigation_menu').hover(
-      function(){ $(this).addClass('active') },
-      function(){ $(this).removeClass('active') }
+      function(){ $(this).addClass('active_menu') },
+      function(){ $(this).removeClass('active_menu') }
     )
     
-    $('.navbar-toggler').click(function(){
-      $('.navbar-collapse').slideUp();
-    })
+    // $('.navbar-toggler').click(function(){
+    //   $('.navbar-collapse').slideUp();
+    // })
 /* ------------------------------------ */	
 /*  MTD Menu
 /* ------------------------------------ */	
@@ -34,3 +36,21 @@ $(document).ready(function(){
     $(".sub-menu").toggleClass("active"),fadeIn(46000);
   });
   });
+
+
+  document.addEventListener("DOMContentLoaded", function(){
+		
+		window.addEventListener('scroll', function() {
+	       
+			if (window.scrollY > 200) {
+				document.getElementById('navbar_top').classList.add('fixed-top');
+				// add padding top to show content behind navbar_top
+				navbar_height = document.querySelector('.navbar').offsetHeight;
+				document.body.style.paddingTop = navbar_height + 'px';
+			} else {
+			 	document.getElementById('navbar_top').classList.remove('fixed-top');
+				 // remove padding top from body
+				document.body.style.paddingTop = '0';
+			} 
+		});
+	}); 

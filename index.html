@@ -16,7 +16,11 @@
     <link rel="stylesheet" href="assets/css/common.css">
     <!--    font awesome-->
     <link rel="stylesheet" href="assets/css/all.min.css">
+    <!-- aos css link  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <title>Document</title>
+
 </head>
 
 <body>
@@ -58,9 +62,9 @@
                 <div class="d-flex ms-auto text-light position-relative top-7">
                     <p class="me-2">Folgs uns</p>
                     <div>
-                        <i class="fa-brands fa-facebook-f mx-2 fs-25"></i>
+                        <a href="#"><i class="fa-brands fa-facebook-f mx-2 fs-25"></i></a>
                         <span class="line"></span>
-                        <i class="fa-brands fa-google mx-2 fs-25"></i>
+                        <a href="#"><i class="fa-brands fa-google mx-2 fs-25"></i></a>
                     </div>
                 </div>
 
@@ -71,7 +75,7 @@
 
     <!--navbar start-->
     <section id="nav_menu">
-        <nav class="navbar navbar-expand-lg ">
+    <nav id="navbar_top" class="navbar navbar-top navbar-expand-lg">
             <div class="container">
                 <button class="navbar-toggler" id="hamburger-icon" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -83,23 +87,23 @@
                     <img src="assets/images/logo/logo.png" alt="">
                 </a>
 
-                <div class="position-relative  navbar-collapse d-none d-lg-block  ">
+                <div class="position-relative d-none d-lg-block">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
-                        <li class="nav-item  mt-3 mx-3">
-                            <a class="nav-link text-light fs-14 fw-bold text-uppercase active" aria-current="page"
+                        <li class="nav-item navigation_menu  mt-3 mx-3">
+                            <a class="nav-link text-light fs-14 fw-bold text-uppercase " aria-current="page"
                                 href="#">Home</a>
                         </li>
-                        <li class="nav-item  mt-3 mx-3">
+                        <li class="nav-item navigation_menu  mt-3 mx-3">
                             <a class="nav-link text-light fs-14 fw-bold text-uppercase" href="#">Über uns</a>
                         </li>
-                        <li class="nav-item  mt-3 mx-3">
+                        <li class="nav-item navigation_menu  mt-3 mx-3">
                             <a class="nav-link text-light fs-14 fw-bold text-uppercase" href="#">Leistungen &
                                 Service</a>
                         </li>
                         <li class="nav-item mt-10 mx-3">
                             <a class="nav-link btn my_btn text-light fs-14 fw-bold text-uppercase" href="#">Kantakt</a>
                         </li>
-                        <li class="d-none mt-3 top_nav">
+                        <li class="mt-3 d-none top_nav">
                             <div class="d-flex text-light mx-4">
                                 <div class="top_header_icon text-center">
                                     <i class="fa fa-phone fs-21 text-light"></i>
@@ -133,9 +137,9 @@
                             <div class="d-flex ms-auto text-light position-relative top-7">
                                 <p class="me-2">Folgs uns</p>
                                 <div>
-                                    <i class="fa-brands fa-facebook-f mx-2 fs-25"></i>
+                                    <a href="#"><i class="fa-brands fa-facebook-f mx-2 fs-25"></i></a>
                                     <span class="line"></span>
-                                    <i class="fa-brands fa-google mx-2 fs-25"></i>
+                                    <a href="#"><i class="fa-brands fa-google mx-2 fs-25"></i></a>
                                 </div>
                             </div>
 
@@ -154,23 +158,23 @@
                 </div>
             </div>
             <div class="slide-menu-here">
-                <ul class="menu navbar-nav ms-auto mb-2 mb-lg-0 ">
-                    <li class="nav-item  mt-3 mx-3">
-                        <a class="nav-link text-light fs-14 fw-bold text-uppercase active" aria-current="page"
+                <ul class="menu navbar-nav ms-auto mb-2 mb-lg-0 ps-4">
+                    <li class="nav-item navigation_menu mt-3">
+                        <a class="nav-link text-light fs-14 fw-bold text-uppercase " aria-current="page"
                             href="#">Home</a>
                     </li>
-                    <li class="nav-item  mt-3 mx-3">
+                    <li class="nav-item navigation_menu  mt-3">
                         <a class="nav-link text-light fs-14 fw-bold text-uppercase" href="#">Über uns</a>
                     </li>
-                    <li class="nav-item  mt-3 mx-3">
+                    <li class="nav-item navigation_menu  mt-3">
                         <a class="nav-link text-light fs-14 fw-bold text-uppercase" href="#">Leistungen &
                             Service</a>
                     </li>
-                    <li class="nav-item my-4 mx-3">
+                    <li class="nav-item navigation_menu my-4">
                         <a class="nav-link btn my_btn text-light fs-14 fw-bold text-uppercase" href="#">Kantakt</a>
                     </li>
-                    <li class="d-md-block d-lg-none d-xl-none d-sm-block mt-3">
-                        <div class="d-flex text-light mx-4 my-2">
+                    <li class="mt-3">
+                        <div class="d-flex text-light  my-2">
                             <div class="top_header_icon text-center">
                                 <i class="fa fa-phone fs-21 text-light"></i>
                             </div>
@@ -180,7 +184,7 @@
                                 <span>0441 / 970 68 43</span>
                             </p>
                         </div>
-                        <div class="d-flex text-light mx-4 my-2">
+                        <div class="d-flex text-light  my-2">
                             <div class="top_header_icon text-center">
                                 <i class=" fa-brands text-light fa-whatsapp fs-28 mt-2"></i>
                             </div>
@@ -190,7 +194,7 @@
                                 <span>uns bei Whatsapp</span>
                             </p>
                         </div>
-                        <div class="d-flex text-light mx-4 my-2">
+                        <div class="d-flex text-light  my-2">
                             <div class="top_header_icon text-center">
                                 <i class="fa-solid fa-envelope text-light fs-21"></i>
                             </div>
@@ -200,7 +204,7 @@
                                 <span>kontakt@advisa.de</span>
                             </p>
                         </div>
-                        <div class="d-flex ms-auto mt-3 text-light position-relative top-7">
+                        <div class="d-flex mt-3 text-light position-relative top-7">
                             <p class="me-2">Folgs uns</p>
                             <div>
                                 <i class="fa-brands fa-facebook-f mx-2 fs-25"></i>
@@ -218,7 +222,7 @@
 
     <!--header carouser start-->
     <section id="header_carousel">
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
 
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -231,7 +235,7 @@
                             industry. Lorem Ipsum has been the industry's standard dummy text ever .</p>
                     </div>
                 </div>
-                <!-- <div class="carousel-item ">
+                <div class="carousel-item ">
                     <img width="1440" height="700" src="assets/images/carousel-images/pexels-jopwell-2422280.jpg"
                         class="d-block w-100" alt="...">
                     <div class="overlay"></div>
@@ -251,16 +255,20 @@
                         <p class="mx-auto fs-14 ">Lorem Ipsum is simply dummy text of the printing and typesetting
                             industry. Lorem Ipsum has been the industry's standard dummy text ever .</p>
                     </div>
-                </div> -->
+                </div>
 
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
                 data-bs-slide="prev">
-                <i class="fa-solid fa-circle-chevron-left fa-2x carousel_prev_icon" title="previous"></i>
+                <div class="position-relative">
+                    <i class="fa-solid fa-chevron-left carousel_prev_icon text-light" title="Next"></i>
+                </div>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleCaptions"
                 data-bs-slide="next">
-                <i class="fa-solid fa-circle-chevron-right fa-2x carousel_next_icon" title="Next"></i>
+                <div class="position-relative">
+                    <i class="fa-solid fa-chevron-right  carousel_next_icon text-light" title="Next"></i>
+                </div>
             </button>
         </div>
     </section>
@@ -269,12 +277,12 @@
     <!-- main content start  -->
     <main>
         <!-- first section start  -->
-        <section id="section_one" class="py-3">
+        <section id="section_one" class="">
             <div class="container">
                 <div class="row">
                     <p class="fs-18 main_content_title position-relative ps-4">ÜBER UNS</p>
                     <div class="col-md-6">
-                        <h1 class="fs-40 fw-bold content_head">Sie beauftragen uns, wir kümmern uns um alles.</h1>
+                        <h1 class="fs-40 content_head">Sie beauftragen uns, wir kümmern uns um alles.</h1>
                         <p class="fs-16 gray_color fw-light content_text">Wir vom Kurt Transport Service – kurz KTS –
                             verstehen uns als Full-Service-Anbieter rund um die Bereiche Umzug, Transport, Entrümpelung
                             bzw. Haushaltsauflösung. Wir begleiten Sie nicht nur vom ersten Beratungsgespräch bis zur
@@ -282,11 +290,11 @@
                             Unterstützung an. Wir wissen, worauf es bei einem Umzug ankommt und geben Ihnen wertvolle
                             Ratschläge, was Sie beachten und bedenken müssen.</p>
                     </div>
-                    <div class="col-md-6 position-relative">
+                    <div class="col-md-6 position-relative text-end">
                         <img src="assets/images/Mask group.png" class="img-fluid" alt="">
                         <div class="card first_card rounded-0 position-absolute">
                             <div class="card-body">
-                                <p class="text-center"><span class="fw-bold">Ihr Ansprechpartner</span> <br> <span
+                                <p class=" card_text"><span class="fw-bold">Ihr Ansprechpartner</span> <br> <span
                                         class="fw-light">Ferhat Kurt</span> <span class="">0173 / 156 74 12</span></p>
 
                             </div>
@@ -294,12 +302,12 @@
 
                     </div>
                 </div>
-                <div class="row mt-100">
+                <div class="row mt-110">
                     <div class="col-md-6  position-relative">
                         <img src="assets/images/Pexels Photo by Stefan Stefancik.png" class="img-fluid" alt="">
                         <div class="card second_card rounded-0 position-absolute">
                             <div class="card-body">
-                                <p class="text-center"><span class="fw-bold">Ihr Ansprechpartner</span> <br> <span
+                                <p class="card_text"><span class="fw-bold">Ihr Ansprechpartner</span> <br> <span
                                         class="fw-light">Ferhat Kurt</span> <span class="">0173 / 156 74 12</span></p>
 
                             </div>
@@ -307,7 +315,7 @@
 
                     </div>
                     <div class="col-md-6">
-                        <h1 class="fs-40 fw-bold content_head">Sie beauftragen uns, wir kümmern uns um alles.</h1>
+                        <h1 class="fs-40 content_head">Sie beauftragen uns, wir kümmern uns um alles.</h1>
                         <p class="fs-16 gray_color fw-light content_text">Wir vom Kurt Transport Service – kurz KTS –
                             verstehen uns als Full-Service-Anbieter rund um die Bereiche Umzug, Transport, Entrümpelung
                             bzw. Haushaltsauflösung. Wir begleiten Sie nicht nur vom ersten Beratungsgespräch bis zur
@@ -321,15 +329,15 @@
         <!-- first section end  -->
 
         <!-- second section start  -->
-        <section id="section_two" class="py-4 mt-100 bg-secondary">
+        <section id="section_two" class="bg-secondary">
             <div class="container text-light">
                 <div class="text-center">
                     <img src="assets/images/Group 7.png" class="mb-4" alt="">
-                    <p class="mx-0 fs-16 second_content_title position-relative ps-4">Advisa Finance & Commerce GmbH</p>
-                    <h2 class="fs-30 ms-3">LEISTUNGEN & SERVICE</h2>
+                    <p class="mx-0 fs-16 second_content_title position-relative ps-md-4">Advisa Finance & Commerce GmbH</p>
+                    <h2 class="fs-30 ms-3 second_content_big_title">LEISTUNGEN & SERVICE</h2>
                 </div>
                 <div class="row">
-                    <div class="col-md-6 my-sm-2 my-md-5">
+                    <div class="col-md-6 my-sm-2 my-md-5" data-aos="fade-right" data-aos-delay="300" data-aos-duration="900">
                         <div class="bg-transparent border-0 card mb-3">
                             <div class="row g-0">
                                 <div class="col-md-4 text-center text-md-end">
@@ -339,7 +347,7 @@
                                 <div class="col-md-8">
                                     <div class="card-body">
                                         <h5 class="card-title fs-16 text-center text-md-start fw-bold">E Commerce</h5>
-                                        <p class="card-text fs-14 fw-light">Lorem Ipsum is simply dummy text of the
+                                        <p class="card-text second_sec_card_text second_sec_card_text fs-14 fw-light">Lorem Ipsum is simply dummy text of the
                                             printing and typesetting industry. Lorem Ipsum has been the industry's
                                             standard dummy text ever since the 1500s, when an unknown printer took a
                                             galley of type and scrambled it to make a type specimen book.</p>
@@ -349,7 +357,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 my-sm-2 my-md-5">
+                    <div class="col-md-6 my-sm-2 my-md-5"data-aos="fade-left" data-aos-delay="600" data-aos-duration="900">
                         <div class="bg-transparent border-0 card mb-3">
                             <div class="row g-0">
                                 <div class="col-md-4 text-center text-md-end">
@@ -359,7 +367,7 @@
                                 <div class="col-md-8">
                                     <div class="card-body">
                                         <h5 class="card-title fs-16 text-center text-md-start fw-bold">online shop</h5>
-                                        <p class="card-text fs-14 fw-light">Lorem Ipsum is simply dummy text of the
+                                        <p class="card-text second_sec_card_text fs-14 fw-light">Lorem Ipsum is simply dummy text of the
                                             printing and typesetting industry. Lorem Ipsum has been the industry's
                                             standard dummy text ever since the 1500s, when an unknown printer took a
                                             galley of type and scrambled it to make a type specimen book.</p>
@@ -369,7 +377,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 my-sm-2 my-md-5">
+                    <div class="col-md-6 my-sm-2 my-md-5"data-aos="fade-right" data-aos-delay="900" data-aos-duration="900">
                         <div class="bg-transparent border-0 card mb-3">
                             <div class="row g-0">
                                 <div class="col-md-4 text-center text-md-end">
@@ -378,8 +386,9 @@
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
-                                        <h5 class="card-title fs-16 text-center text-md-start fw-bold">various products</h5>
-                                        <p class="card-text fs-14 fw-light">Lorem Ipsum is simply dummy text of the
+                                        <h5 class="card-title fs-16 text-center text-md-start fw-bold">various products
+                                        </h5>
+                                        <p class="card-text second_sec_card_text fs-14 fw-light">Lorem Ipsum is simply dummy text of the
                                             printing and typesetting industry. Lorem Ipsum has been the industry's
                                             standard dummy text ever since the 1500s, when an unknown printer took a
                                             galley of type and scrambled it to make a type specimen book.</p>
@@ -389,7 +398,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 my-sm-2 my-md-5">
+                    <div class="col-md-6 my-sm-2 my-md-5"data-aos="fade-left" data-aos-delay="1200" data-aos-duration="900">
                         <div class="bg-transparent border-0 card mb-3">
                             <div class="row g-0">
                                 <div class="col-md-4 text-center text-md-end">
@@ -398,8 +407,9 @@
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
-                                        <h5 class="card-title fs-16 text-center text-md-start fw-bold">Finance Advisor</h5>
-                                        <p class="card-text fs-14 fw-light">Lorem Ipsum is simply dummy text of the
+                                        <h5 class="card-title fs-16 text-center text-md-start fw-bold">Finance Advisor
+                                        </h5>
+                                        <p class="card-text second_sec_card_text fs-14 fw-light">Lorem Ipsum is simply dummy text of the
                                             printing and typesetting industry. Lorem Ipsum has been the industry's
                                             standard dummy text ever since the 1500s, when an unknown printer took a
                                             galley of type and scrambled it to make a type specimen book.</p>
@@ -418,19 +428,21 @@
 
 
         <!-- contact area start  -->
-        <section id="contact_area" class="py-150">
+        <section id="contact_area" class="">
             <div class="container text-light">
                 <div class="text-center">
                     <p class="mx-0 fs-16 contact_area_title position-relative">Advisa Finance & Commerce GmbH</p>
-                    <h2 class="fs-40 fw-bold">Kontaktieren Sie uns</h2>
-                    <p class="fs-16 fw-light w-75 mx-auto">Wir machen es Ihnen leicht. Schicken Sie uns Ihre Anfrage per
+                    <h2 class="fs-40 content_head contact_head text-light">Kontaktieren Sie uns</h2>
+                    <p class="fs-16 fw-light contact_area_h_text mx-auto">Wir machen es Ihnen leicht. Schicken Sie uns Ihre Anfrage per
                         Telefon oder über das Kontaktformular. Auf Wunsch vereinbaren wir einen kostenlosen
                         Besichtigungstermin vor Ort, anschließend erhalten Sie ein unverbindliches Angebot.</p>
-                    <i class="fa fa-phone"></i>
-                    <span>0173 156 74 12</span>
+                    <div class="contact_area_number" style="padding-top: 9px;">
+                        <i class="fa fa-phone"></i>
+                    <span >0173 156 74 12</span>
+                    </div>
                 </div>
 
-                <div class="row mt-5">
+                <div class="row mt-5 input_field">
                     <div class="col-md-6 my-3">
                         <input type="text" class="form-control" name="name" placeholder="Name">
                     </div>
@@ -444,10 +456,11 @@
                         <input type="text" class="form-control" name="subject" placeholder="Subject">
                     </div>
                     <div class="col-md-12 my-3">
-                        <textarea name="message" placeholder="Write Your Message" id="" class="form-control" rows="10"></textarea>
+                        <textarea name="message" placeholder="Write Your Message" id="" class="form-control"
+                            rows="10"></textarea>
                     </div>
                     <div class="col-md-12 my-3">
-                        <button type="submit" class="btn btn-dark w-100">Send Now</button>
+                        <button type="submit" class="btn text-light w-100 send_btn">Send Now</button>
                     </div>
                 </div>
             </div>
@@ -455,36 +468,37 @@
         <!-- contact area end  -->
 
 
-       
+
 
     </main>
     <!-- main content end  -->
 
-     <!-- footer start  -->
-     <footer>
+    <!-- footer start  -->
+    <footer>
         <!-- big footer start  -->
         <section id="big_footer" class="py-5 bg-primary text-light">
             <div class="container">
-                <div class="d-sm-block d-md-flex text-center text-md-start">
-                    <div>
+                <div class="d-sm-block d-lg-flex justify-content-between text-center text-lg-start">
+                    <div class="big_footer_title">
                         <h2 class="fs-30 fw-bold">Sie brauchen mehr Informationen?</h2>
-                    <p class="fs-16 fw-light">Sie haben auf der Seite nicht alle Informationen gefunden? Kein Problem, rufen Sie uns an und wir beraten Sie kostenlos.</p>
+                        <p class="fs-16 fw-light big_footer_h_text">Sie haben auf der Seite nicht alle Informationen gefunden? Kein
+                            Problem, rufen Sie uns an und wir beraten Sie kostenlos.</p>
                     </div>
                     <a href="" class="btn my_second_btn text-light fs-16 fw-bold">Jetzt anrufen!</a>
                 </div>
-                <div class="row mt-5">
-                    <div class="col-md-4">
+                <div class="row footer_menu_section">
+                    <div class="col-md-12 col-lg-4 logo_with_text">
                         <img src="assets/images/logo/logo.png" alt="">
-                        <p>Advisa to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years ...</p>
+                        <p>Advisa to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                            classical Latin literature from 45 BC, making it over 2000 years ...</p>
                     </div>
-                    <div class="col-md-4 text-center py-3">
-                        <ul class="d-flex d-md-block p-0">
-                            <li class="list-unstyled"><a class="nav-link fs-16 text-light fw-bold" href="">Impressum</a></li>
-                            <li class="list-unstyled"><a class="nav-link fs-16 text-light" href="">Impressum</a></li>
-                            <li class="list-unstyled"><a class="nav-link fs-16 text-light" href="">Datenschutz</a></li>
-                        </ul>
+                    <div class="col-md-6 col-lg-4 align-self-center text-center footer_link_menu">
+                        <p><a class=" fs-16 text-light text-decoration-none " href="">Impressum</a></p>
+                        <p><a class=" fs-16 text-light text-decoration-none " href="">Impressum</a></p>
+                        <p><a class=" fs-16 text-light text-decoration-none " href="">Impressum</a></p>
+                       
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-6 col-lg-4 align-self-center address_link">
                         <p><i class="fa fa-location-dot me-2"></i> Etzhorner Weg 11, 26125 Oldenburg</p>
                         <p><i class="fa fa-envelope me-2"></i> kontakt@advisa.de</p>
                         <p><i class="fa fa-phone me-2"></i> 0173 156 74 12</p>
@@ -496,12 +510,12 @@
 
         <!-- small footer start  -->
         <section id="small_footer" class="py-2 bg-secondary text-light">
-            <div class="container text-center text-md-start">
+            <div class="container text-center">
                 <div class="d-flex justify-content-center">
                     <p class="m-0 mt-2">2022 Advisa Finance & Commerce GmbH – Webseite erstellt von Clevpro</p>
                     <img src="assets/images/logo/clevpro.png" class="img-fluid ms-3" alt="">
                 </div>
-                
+
             </div>
         </section>
         <!-- small footer end -->
@@ -514,6 +528,8 @@
     <script src="assets/js/jquery.min.js"></script>
     <!--bootstrap js-->
     <script src="assets/js/bootstrap.bundle.js"></script>
+    <!-- aos js  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!--script js-->
     <script src="assets/js/script.js"></script>
 
