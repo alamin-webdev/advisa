@@ -24,7 +24,7 @@
         position: relative;
         width: 372px;
         font-size: 24px;
-        left: -31%;
+        left: -34px;
         bottom: 80%;
     }
     .carousel-control-next {
@@ -87,7 +87,7 @@
         top: 91%;
         width: 257px;
         height: 50px;
-        left: 11%;
+        left: 0%;
     }
 
     .card_text {
@@ -108,7 +108,7 @@
         width: 262px;
         font-weight: 600;
         font-size: 14px !important;
-        margin-left: 80px;
+        margin: 0 auto !important;
     }
 
     .second_content_title::before {
@@ -127,13 +127,13 @@
         font-size: 25px !important;
         line-height: 60px;
         position: relative;
-        right: 19%;
+        right: 0%;
     }
     .second_sec_card_text{
         position: relative;
         width: 300px;
         height: 100px;
-        left: -46px;
+        left: 0px;
         font-size: 12px;
         line-height: 20px;
     }
@@ -143,7 +143,7 @@
         font-weight: 600;
         font-size: 14px !important;
         line-height: 60px;
-        /* right: 89px; */
+        right: -56px;
     }
     .contact_area_title::after {
         width: 80px;
@@ -152,7 +152,7 @@
     }
     .contact_head{
         position: relative;
-        right: 24px;
+        right: 0;
     }
     .contact_area_h_text{
         /* position: relative; */
@@ -167,8 +167,7 @@
         height: 60px;
          position: relative;
         top: 82px;
-
-        right: -50px;
+        margin: 0 auto;
     }
     #contact_area{
         padding: unset;
@@ -223,13 +222,12 @@
     .footer_menu_section .footer_link_menu{
         display: flex;
         justify-content: space-between;
-
+        
     }
     .footer_link_menu .address_link{
         text-align: start;
     }
-
-<<<<<<< HEAD
+    
 
 
     #small_footer .d-flex {
@@ -330,7 +328,7 @@
     .second_card {
         width: 314px;
         height: 63px;
-
+        
         left: 0%;
     }
 
@@ -350,16 +348,16 @@
     }
 
     .second_content_title {
-
+        
         font-weight: 600;
-
+        
     }
 
     .second_content_title::before {
         width: 56px;
         margin-left: -61px;
     }
-
+    
 
     .second_content_title::after {
         width: 56px;
@@ -407,7 +405,7 @@
         /* height: 60px; */
          position: relative;
         top: 62px;
-
+        
         /* right: -50px; */
     }
     #contact_area{
@@ -450,7 +448,7 @@
     .my_second_btn{
         margin-top: 14px;
         padding: 5px 0 !important;
-
+        
         width: 168px !important;
         height: 34px !important;
         font-size: 14px !important;
@@ -472,7 +470,7 @@
         margin-top: 20px;
         /* display: flex;
         justify-content: space-between; */
-
+        
     }
      .address_link{
         margin-top: 20px;
@@ -480,7 +478,7 @@
         /* display: flex; */
         /* text-align: start; */
     }
-
+    
 
 
     #small_footer .d-flex {
@@ -491,7 +489,7 @@
     #small_footer .d-flex img{
         width: 90px;
     }
-
+    
 }
 
 @media screen and (min-width:1024px) {
@@ -580,7 +578,7 @@
     .second_card {
         width: 314px;
         height: 63px;
-
+        
         left: 0%;
     }
 
@@ -600,16 +598,16 @@
     }
 
     .second_content_title {
-
+        
         font-weight: 600;
-
+        
     }
 
     .second_content_title::before {
         width: 56px;
         margin-left: -61px;
     }
-
+    
 
     .second_content_title::after {
         width: 56px;
@@ -657,7 +655,7 @@
         /* height: 60px; */
          position: relative;
         top: 62px;
-
+        
         /* right: -50px; */
     }
     #contact_area{
@@ -700,7 +698,7 @@
     .my_second_btn{
         margin-top: 14px;
         padding: 5px 0 !important;
-
+        
         width: 168px !important;
         height: 34px !important;
         font-size: 14px !important;
@@ -722,7 +720,7 @@
         margin-top: 20px;
         /* display: flex;
         justify-content: space-between; */
-
+        
     }
      .address_link{
         margin-top: 20px;
@@ -730,7 +728,7 @@
         /* display: flex; */
         /* text-align: start; */
     }
-
+    
 
 
     #small_footer .d-flex {
@@ -742,6 +740,3 @@
         width: 90px;
     }
 }
-=======
- }
->>>>>>> 940887fa7fc659ab8d68601787607c6aad62cb55
